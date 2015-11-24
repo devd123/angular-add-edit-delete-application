@@ -1,0 +1,169 @@
+html {
+    background-color: #f0f3f4;
+    position: relative;
+    min-height: 100%;
+}
+
+
+
+body {
+    background-color: transparent;
+    color: #58666e;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.42857;
+    padding-top: 50px;
+     margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  padding-top:15px;
+}
+
+
+/* navbar */
+.navbar-inverse {
+    background-color: #f04949;
+    border-color: #f04949;
+}
+/* title */
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size:20px;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #fff;
+}
+/* link */
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #f04949;
+}
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #f04949;
+}
+
+
+
+
+.line {
+    font-size: 0;
+    height: 2px;
+    margin: 10px 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: #2e3344;
+}
+
+.sidebar ul.nav li a > i {
+    float: left;
+    line-height: 40px;
+    margin: -10px 5px -10px -10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 40px;
+}
+
+.sidebar ul.nav li a{
+	font-weight: 700;
+}
+
+.nav li a:first{margin-left: 20%;}
+.nav li a{width:100%; margin-right: 45%;font-size:1.5em;}
+.nav li a i{margin-right: 10px;display: inline !important;}
+@media (min-width: 600px) and (max-width: 1100px) {
+	.nav li a {
+	    font-size: 1.5em;
+	    margin-right: 10%;
+	}
+}
+.nav li a .fa{display: inline !important;}
+
+
+/*** nav ends here ****/
+
+.title {
+	background-color: #34495e;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px 5px;
+}
+
+.underline{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.btn-success, .panel-success {
+    background-color: #27c24c !important;
+    border-color: #27c24c !important;
+    color: #fff !important;
+}
+.btn-primary, .panel-primary {
+    background-color: #7266ba;
+    border-color: #7266ba;
+    color: #fff !important;
+}
+.btn-info, .panel-info {
+    background-color: #23b7e5;
+    border-color: #23b7e5;
+    color: #fff !important;
+}
+.btn-warning, .panel-warning {
+    background-color: #fad733;
+    border-color: #fad733;
+    color: #fff !important;
+}
+.btn-danger, .panel-danger {
+    background-color: #f05050;
+    border-color: #f05050;
+    color: #fff !important;
+}
+.btn-dark, .panel-dark {
+    background-color: #3a3f51;
+    border-color: #3a3f51;
+    color: #fff !important;
+}
+
+.btn-save, .btn-save:hover, .btn-save:active, .btn-save:focus{
+	background-color: #57c700 !important;
+    border: 0 none !important;
+    box-shadow: 0 3px 0 #4db300, 0 5px 2px rgba(0, 0, 0, 0.2) !important;
+    color: #fff;
+    padding-bottom: 10px !important;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px !important;
+    position: relative;
+}
+.mt80{
+	margin-top: 80px;
+}
+
+
+form .ng-invalid.ng-dirty { background-color: lightpink; }
+form .ng-valid.ng-dirty { background-color: lightgreen; }
+span.summary.ng-invalid { color: red; font-weight: bold; }
+span.summary.ng-valid { color: green; }
+div.error {color: red !important; font-weight: bold;}
+.help-block.error{color: red !important;}
